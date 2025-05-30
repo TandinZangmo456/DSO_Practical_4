@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.531">
+  <testsuite name="GET /" errors="0" failures="1" skipped="0" timestamp="2025-05-30T08:49:06" time="0.497" tests="1">
+    <testcase classname="GET / responds with Hello World from Jenkins!" name="GET / responds with Hello World from Jenkins!" time="0.002">
+      <failure>TypeError: Cannot read properties of undefined (reading &apos;address&apos;)
+    at Test.serverAddress (/home/tandinzangmo/Desktop/Practical4/node_modules/supertest/lib/test.js:46:22)
+    at new Test (/home/tandinzangmo/Desktop/Practical4/node_modules/supertest/lib/test.js:34:14)
+    at Object.obj.&lt;computed&gt; [as get] (/home/tandinzangmo/Desktop/Practical4/node_modules/supertest/index.js:43:18)
+    at Object.get (/home/tandinzangmo/Desktop/Practical4/app.test.js:6:36)
+    at Promise.then.completed (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname=" Test execution failure: could be caused by test hooks like &apos;afterAll&apos;." name=" Test execution failure: could be caused by test hooks like &apos;afterAll&apos;." time="0">
+      <failure>{&quot;message&quot;:&quot;&quot;,&quot;stack&quot;:&quot;TypeError: Cannot read properties of undefined (reading &apos;close&apos;)\n    at Object.close (/home/tandinzangmo/Desktop/Practical4/app.test.js:12:12)\n    at Promise.then.completed (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (&lt;anonymous&gt;)\n    at callAsyncCircusFn (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusHook (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/run.js:281:40)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at _runTestsForDescribeBlock (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/run.js:154:7)\n    at _runTestsForDescribeBlock (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/run.js:121:9)\n    at run (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)\n    at jestAdapter (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/home/tandinzangmo/Desktop/Practical4/node_modules/jest-runner/build/runTest.js:444:34)&quot;}</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
