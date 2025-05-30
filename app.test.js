@@ -1,5 +1,11 @@
+
+
 const request = require('supertest');
-const app = require('./app');
+const { app, server } = require('./app');
+
+afterAll(() => {
+  server.close();  // Ensure server is closed after all tests
+});
 
 describe('GET /', () => {
   it('responds with Hello World from Jenkins!', async () => {
