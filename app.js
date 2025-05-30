@@ -1,14 +1,17 @@
 const express = require('express');
 const app = express();
+const port = 4000;
 
 app.get('/', (req, res) => {
   res.send('Hello World from Jenkins!');
 });
 
+let server;
+
 if (require.main === module) {
-  app.listen(4000, () => {
-    console.log(`App listening at http://localhost:4000`);
+  server = app.listen(port, () => {
+    console.log(`App listening at http://localhost:${port}`);
   });
 }
 
-module.exports = app;
+module.exports = { app, server };
